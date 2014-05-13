@@ -5,7 +5,7 @@
 <meta content="WLQPBt5DSA/ue38ImeVyfQKRDLTg+oEP2wtwWORATLw=" name="csrf-token"/>
 <meta charset='utf-8'>
 <title>
-TheAppleTreeMC - Minecraft
+ColdLion Studios
 </title>
 <script type="text/javascript">
 //<![CDATA[
@@ -62,26 +62,26 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <div class='container'>
 <a class='brand' href='index.php' style='width: 190px;'>
 
-TheAppleTreeMC
+ColdLion Studios
 </a>
 <div class='nav-collapse'>
 <ul class='nav'>
 <li>
-<a href='forums'>
-<i class='icon-pencil'></i>
-Forums
+<a href='http://youtube.com/Coldlionstudios'>
+<i class='fa-youtube-square'></i>
+Youtube
 </a>
 </li>
 <li>
-<a href='bans'>
-<i class='icon-user'></i>
-Bans
+<a href='http://plus.google.com/ColdLionStudios'>
+<i class='fa fa-google-plus'></i>
+Google Plus
 </a>
 </li>
 <li>
-<a href='statistics'>
-<i class='icon-star'></i>
-Statistics
+<a href='http://github.com/ColdLion'>
+<i class='fa fa-github-square'></i>
+Github
 </a>
 </li>
 <li>
@@ -99,9 +99,6 @@ Shop
 <i class='icon-locks'></i>
 <b class=''></b>
 </a>
-<ul class='dropdown-menu'>
-<li>
-</i><a href='admin/'>Admin Area</a>
 
 </li>
 <li>
@@ -123,33 +120,11 @@ Shop
 </div>
 <div class='jumbotron masthead'>
 <div class='container'>
-<h1>TheAppleTreeMC</h1>
-<p>The awesome server that lets you play<br>minecraft anywhere, anytime.</p>
-<a class='btn btn-primary btn-large' href='#'>Play Now &raquo;</a>
+<h1>ColdLion</h1>
+<p>The awesome Youtuber that plays anything, anytime, anywhere</p>
+<a class='btn btn-primary btn-large' href='http://youtube.com/ColdLionStudios'>Watch Now! </a>
 </div>
 </div>
-<div class='bs-docs-social'>
-<div class='container'>
-<ul class='bs-docs-social-buttons'>
-<li>Latest Announcements:</li>
-<li>
-<?php
-$con=mysqli_connect("96.47.236.69","root","jamiedukerocks8123","resources");
-// Check connection
-if (mysqli_connect_errno())
-  {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  }
-$result = mysqli_query($con,"SELECT * FROM site");
-
-while($row = mysqli_fetch_array($result))
-  {
-  echo $row['news'] . "       " . $row[''];
-  echo "<br>";
-  }
-mysqli_close($con);
-
-?> 
 
 </li>
 </ul>
@@ -158,99 +133,12 @@ mysqli_close($con);
 <div class='container'>
 <div class='flash' style='margin-top: 20px;'>
 </div>
-<style>body{padding-bottom:40px;}</style>
-<script>$(function(){$('#hero').carousel('cycle')});</script>
-<div class='row marketing'>
-<div class='span4'>
-<img src='assets/index/variety-7e444ff3bc0e16c694f45f5c55be6c43.png'>
-<h2>Variety</h2>
-<p>TheAppleTreeMC provides many styles to a wide variety of players. Unlike other servers, we specialize in offering a unique and exclusive experience to everyone.</p>
-<p>
 
-</p>
-</div>
-<div class='span4'>
-<img src='assets/index/competition-88f601a137daa360a7a3de63b5bb12cd.png'>
-<h2>Competition</h2>
-<p>Our servers appeal to a wide range of audiences with varying skills and play styles. With such a large and diverse player base, you'll never be bored fighting the same people over and over again!</p>
-<p>
-
-</p>
-</div>
-<div class='span4'>
-<img src='assets/index/real.png'>
-<h2>Reliability</h2>
-<p>TheAppleTreeMC was designed with scalability and uptime in mind. Development continues at a rapid pace, providing you and your friends with the best gameplay possible.</p>
-<p>
-
-</p>
-</div>
-</div>
-<hr>
-<div class='modal hide fade' id='contact'>
-<div class='modal-header'>
-<button class='close' data-dismiss='modal'></button>
-<h3>
-
-</h3>
-</div>
-
-</div>
-<footer>
-
-    <center>
-<h3>Information</h3>
-<table class='table table-striped'>
-<tbody>
-<tr>
-<td>
-<b>Connect To:</b>
-</td>
-<td>
-<ul class='unstyled'>
-<li class='lead'>TheAppleTreeMC.com</li>
-
-</ul>
-</td>
-</tr>
-<tr>
-<td>
-<b>Versions</b>
-</td>
-<td>
-<ul></ul>
-<li>1.7.4</li>
-<li>1.7.2</li>
-</td>
-</tr>
-<tr>
-<td>
-<b>Status</b>
-</td>
-<td>
-<i class='icon-minus-sign'></i>
-1 server offline
-</td>
-</tr>
-<tr>
-<td>
-<b>Last Updated</b>
-</td>
-<td>
-less than a minute
-ago
-</td>
-</tr>
-</tbody>
-</table>
-</a>
-</li>
-</ul>
     <hr>
     <center>
     <ul class='nav nav-pills'>
 <li class='pull-left'>
-<a>&copy; 2013 TheAppleTreeMC</a>
+<a>&copy; 2014 ColdLion Studios</a>
     
   
 </li>
